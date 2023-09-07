@@ -1,6 +1,6 @@
 #include <stdio.h>
  /**
-  * main - this is main function where  excecution starts
+  * main - a program that prints the size of variuos computer types
   *
   * Return: o in success
   */
