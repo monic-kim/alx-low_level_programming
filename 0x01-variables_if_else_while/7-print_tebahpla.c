@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: 'print alphabets in reverse
- * return: Always 0(0)
+ * return: Always 0(SUCCESS)
  */
 
 int main(void)
