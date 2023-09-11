@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * Decription: 	p	rint alphabets except q and e
+ * Description: print alphabets except q and e
  * Return:Always 0 (success)
  */
 int main(void)
@@ -11,12 +11,12 @@ int main(void)
 	while (n <= 122)
 	{
 		if (n == 101 || n == 113)
-		{i
+		{
 			n++;
 			continue;
 		}
-	putchar(n);
-	n++;
+		putchar(n);
+		n++;
 	}
 	putchar('\n');
 	return (0);
