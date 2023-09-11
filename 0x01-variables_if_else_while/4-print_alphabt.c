@@ -2,22 +2,22 @@
 /**
  * main - Entry point
  * Decription: 	p	rint alphabets except q and e
- * Return: Always 0 (success)
+ * Return:Always 0 (success)
  */
 int main(void)
 {
-	char c;
+	int n = 97;
 
-	c = 'a';
-	while
-	       	(c <= 'z') 
-		{
-		if ((c != 'q' && c != 'e') && c <= 'z')
-		{
-			putchar(c);
-		c++;
+	while (n <= 122)
+	{
+		if (n == 101 || n == 113)
+		{i
+			n++;
+			continue;
 		}
-		}
+	putchar(n);
+	n++;
+	}
 	putchar('\n');
 	return (0);
 }
