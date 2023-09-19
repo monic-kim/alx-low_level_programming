@@ -1,15 +1,24 @@
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
+#include "main.h"
+/**
+ *  _atoi -  a function that convert a string to an integer.
+ *  @s - string to be converted
+ *
+ *  Return: the int converted from the string
+ */
+int _atoi(char *s)
+{
+	int i, d, n, len, f, digit;
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   ../0x02-functions_nested_loops/1-alphabet.c
-	modified:   100-atoi.c
+	i = 0;
+	d = 0;
+	n = 0;
+	len = 0;
+	f = 0;
+	digit = 0;
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	../0x03-debugging/
+	while (s[len] != '\0')
+		len++;
 
-no changes added to commit (use "git add" and/or "git commit -a")
+	while (i < len && f == 0)
+	{
+		if (s[i] >= '0' && s[i]
