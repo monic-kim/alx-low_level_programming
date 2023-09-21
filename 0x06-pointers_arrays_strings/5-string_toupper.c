@@ -4,7 +4,7 @@
  * @str: the string input to be converted
  * Return: modified string
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int i;
 
