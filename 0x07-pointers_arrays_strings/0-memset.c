@@ -1,6 +1,8 @@
 #include "main.h"
+#include <stdio.h>
+#include <sdlib>
 /**
- * _memset - fills memory with a constant byte
+ * memset - fills memory with a constant byte
  * @s: memory area to be filled
  * @b: char to copy
  * @n: number of tmes to copy b
@@ -9,11 +11,12 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	int i;
 
-	for (i = 0; i < n; i++)
+	for (; n > 0; i++)
 	{
 		s[i] = b;
+		n--;
 	}
 	return (s);
 }
