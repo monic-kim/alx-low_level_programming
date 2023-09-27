@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * sqrt_a - return the square root 
+ * sqrt_a - return the square root
  * of a number
- * 
+ *
  * @n: input number
  * @c: iterator
  * Return: square root or -1
@@ -20,7 +20,7 @@ int sqrt_a(int a, int b)
 	return (sqrt_a(a, b + 1));
 }
 /**
- * _sqrt_recursion - returns natural square root of 
+ * _sqrt_recursion - returns natural square root of
  * a number
  * @n: the input number
  * Return: natural square root
