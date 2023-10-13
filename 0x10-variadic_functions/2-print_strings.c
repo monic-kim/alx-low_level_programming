@@ -9,7 +9,7 @@
  * @...:a variable number of strings
  *
  * Description: if separator is NULL, not printed
- *             if one of th strings is NULL(nill)is printed
+ *             if one of the strings is NULL(nil)is printed
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
